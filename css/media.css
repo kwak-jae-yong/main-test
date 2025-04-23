@@ -1,0 +1,78 @@
+@media screen and (max-width: 1920px) {
+
+
+  .menu-list ul {
+    list-style: none;
+    display: flex;
+
+    justify-content: center;
+  }
+
+  .menu-list ul li {
+    color: white;
+
+    cursor: pointer;
+    transition: color 0.3s ease;
+
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+  header p {
+    font-size: 2.5rem;
+  }
+
+  header .rel .title-wrap .tit-star img{
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .modalNav {
+    top: 36.8%;
+  }
+
+  .navBtn {
+    display: block;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  #s0 .rel .tit-wrap .s0-tit span {
+    font-size: 13rem;
+    line-height: 13rem;
+
+  }
+
+  #s0 .tit-wrap p {
+    font-size: 2rem;
+
+  }
+
+  #s0 .tit-wrap p span {
+    top: calc(100% - 2.5rem);
+    left: calc(100% - 19rem)
+  }
+
+  .left-star::before {
+    width: 3rem;
+    height: 3rem;
+    right: -2.4rem;
+  }
+
+  #s0 .rel .tit-wrap .s0-tit .kwak span:nth-of-type(4)::after {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {}
+
+@media screen and (max-width: 600px) {}
